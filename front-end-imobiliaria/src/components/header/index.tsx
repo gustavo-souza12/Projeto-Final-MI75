@@ -91,7 +91,7 @@ export function Header() {
                                                   userRole === 'Corretor' ? '/paginaCorretores' : 
                                                   userRole === 'Proprietario' ? '/paginaProprietarios' : 
                                                   userRole === 'Editor' ? '/paginaEditor' : 
-                                                  '/paginaInicial'}>Início</Link></li>
+                                                  '/PaginaInicial'}>Início</Link></li>
                                     <li><Link href="/paginaImoveis">Propriedades</Link></li>
                                     <li><Link href="/paginaCorretores">Corretores</Link></li>
                                     <li><Link href="/sobreNos">Sobre nós</Link></li>
